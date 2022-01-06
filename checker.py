@@ -2,7 +2,7 @@ import requests
 import time
 
 def versionLoop():
-    oFile = open("version.txt", "r")
+    oFile = open("", "r")
     
     oldVersion = f'{oFile.read()}'
     newVersion = requests.get('') # Grabs the version from Roblox
